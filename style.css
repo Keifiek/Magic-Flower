@@ -1,0 +1,6 @@
+.bg-image {
+    background-image: url('src/img/close-up-pink-flowers-with-green-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
