@@ -2,5 +2,15 @@
     background-image: url('src/img/close-up-pink-flowers-with-green-background.jpg');
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: overlay;
+    margin: 0!important;
+  }
+  .featurette-divider{
+    margin: 5rem;
+  }
+  .subtitle{
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 35px;
   }
