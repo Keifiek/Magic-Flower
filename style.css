@@ -14,3 +14,22 @@
     text-align: center;
     font-size: 35px;
   }
+  .featurette-heading{
+    margin-bottom: 40px;
+  }
+  .features{
+    margin-bottom: 100px;
+  }
+  .footer-back{
+    background-color: bisque;
+  }
+  .btn-yellow {
+    background-color: #ffc107; /* Amarillo */
+    border-color: #ffc107;     /* Amarillo */
+    color: #212529;            /* Color del texto para contraste */
+}
+
+.btn-yellow:hover {
+    background-color: #e0a800; /* Amarillo oscuro al pasar el ratón */
+    border-color: #d39e00;     /* Amarillo oscuro al pasar el ratón */
+}
