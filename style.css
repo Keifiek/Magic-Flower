@@ -5,6 +5,7 @@
     background-color: rgba(255, 255, 255, 0.2);
     background-blend-mode: overlay;
     margin: 0!important;
+    border-bottom: 10px solid #212529;
   }
   .featurette-divider{
     margin: 5rem;
@@ -24,12 +25,33 @@
     background-color: bisque;
   }
   .btn-yellow {
-    background-color: #ffc107; /* Amarillo */
-    border-color: #ffc107;     /* Amarillo */
-    color: #212529;            /* Color del texto para contraste */
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
 }
 
 .btn-yellow:hover {
-    background-color: #e0a800; /* Amarillo oscuro al pasar el ratón */
-    border-color: #d39e00;     /* Amarillo oscuro al pasar el ratón */
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+.bg-color{
+  background-color:rgba(255, 251, 243, 0.911);
+}
+.foot-color{
+  background-color: rgba(243, 239, 230, 0.116);
+  border-top: 2px solid #212529;
+  height: 150px;
+}
+.opinions{
+  border-top: 3px solid #212529;
+  background-color: rgb(255, 255, 255);
+}
+.form-background{
+  background-color: #fff;
+  border: 2px solid #ddd;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.form-background:hover{
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
 }

@@ -8,7 +8,7 @@
     <link rel="icon" href="src/img/loto.png">
     <title>Mundo Flor</title>
 </head>
-<body>
+<body class="bg-color">
     <header>
           <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
             <div class="container">
@@ -49,7 +49,7 @@
               <h1 class="display-3 fw-bold">Tu emocion en cada flor</h1>
               <h3 class="fw-normal text-muted mb-3">Saca una sonrisa a tu compañia</h3>
               <div class="d-flex gap-3 justify-content-center lead fw-normal">
-                <a class="btn btn-lg btn-yellow icon-link" href="#">
+                <a class="btn btn-lg btn-yellow icon-link" href="#inf">
                   Conocer mas
                   <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
                 </a>
@@ -62,8 +62,8 @@
             <div class="product-device shadow-sm d-none d-md-block"></div>
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </section>
-        <hr class="featurette-divider">
-        <section class="container marketing features">
+        <section id="inf" class="container marketing features bg-color">
+          <hr class="featurette-divider ">
           <h3 class="subtitle">Solo los arreglos que te mereces</h3>
           <div class="galeria">
             <div class="row featurette">
@@ -96,11 +96,42 @@
                 <img src="src/img/depositphotos_306006214-stock-photo-cropped-view-bearded-delivery-man.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="Placeholder: 500x500">
               </div>
             </div>
+            <hr class="featurette-divider">
+          </div>
+        </section>
+        <section class="opinions">  
+          <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+              <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Florece con nosotros</h1>
+                <p class="col-lg-10 fs-4 lead">No te pierdas ninguna novedad de nuestra florería. Suscríbete a nuestro boletín y sé el primero en enterarte de nuestras ofertas especiales, nuevos arreglos florales, y consejos de cuidado para tus flores favoritas. ¡Déjanos tu correo y únete a nuestra comunidad floral hoy mismo!</p>
+              </div>
+              <div class="col-md-10 mx-auto col-lg-5 ">
+                <form class="p-4 p-md-5 rounded-3 form-background">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Agustin Hernandez">
+                    <label for="floatingInput">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingPassword" placeholder="Email" required>
+                    <label for="floatingPassword">Correo electronico</label>
+                  </div>
+                  <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="remember-me"> Quiero recibir las novedades
+                    </label>
+                  </div>
+                  <button class="w-100 btn btn-lg btn-yellow" type="submit">Registrar</button>
+                  <hr class="my-4">
+                  <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                </form>
+              </div>
+            </div>
           </div>
         </section>
           
     </main>
-    <footer class="bg-tertiary border">
+    <footer class="foot-color">
         <div class="container ">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
               <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
@@ -118,6 +149,7 @@
               </ul>
             </footer>
           </div>
-    </footer>    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
 </html>
